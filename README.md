@@ -35,7 +35,7 @@ A snappy 90s‑style Taito Arcade tilt‑to‑dodge Thunder Fighter game, simpli
 | Accelerometer | ADXL345 (I²C `0x53`) | acceleration (m/s²) |
 | Rotary encoder | D0 (A), D1 (B) | menu + selection |
 | Button (confirm/restart) | D2 | menu confirm, restart |
-| Button (invincibility) | D6 | 2 s invincibility |
+| Button (invincibility) | D6 | 2s invincibility |
 | NeoPixel | D7 | 1 LED, brightness 0.3 |
 | Power | LiPo + toggle switch | USB‑C cut‑out for flashing |
 
