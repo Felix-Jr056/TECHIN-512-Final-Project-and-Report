@@ -77,4 +77,4 @@ IDLE_TIMEOUT = 5.0    # seconds without movement → Game Over
 
 ## Enclosure Design
 The style is designed as a airplane yoke, screen centred in the middle, ON/OFF button and Rotary Encoder on the back, USB-C on the bottom. The invincible button is located on the right holder arm.
-![Enclosure](Enclosure.jpeg)
+![Enclosure](Enclosure.png)
