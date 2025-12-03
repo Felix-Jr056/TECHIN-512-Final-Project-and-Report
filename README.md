@@ -6,7 +6,7 @@ A snappy 90s‑style Taito Arcade tilt‑to‑dodge Thunder Fighter game, simpli
 ---
 
 ## Features
-- **Splash animation**: quick “falling Xs” intro
+- **Splash animation**: quick “falling X” intro
 - **3 difficulties**: EASY (0.5 rows/s), MEDIUM (0.9), HARD (1.4)
 - **10 levels**: fixed lane patterns
 - **Tilt controls**: X → left/right, Y → up/down
