@@ -6,7 +6,7 @@ A snappy 90s‑style Taito Arcade tilt‑to‑dodge Thunder Fighter game, simpli
 ---
 
 ## Features
-- **Splash animation**: quick “falling X” intro
+- **Splash animation**: quick falling "X” intro
 - **3 difficulties**: EASY (0.5 rows/s), MEDIUM (0.9), HARD (1.4)
 - **10 levels**: fixed lane patterns
 - **Tilt controls**: X → left/right, Y → up/down
@@ -56,7 +56,7 @@ A snappy 90s‑style Taito Arcade tilt‑to‑dodge Thunder Fighter game, simpli
 
 ---
 
-## ⚙️ Install
+## Install
 1. Flash **CircuitPython** for XIAO ESP32‑C3.
 2. Copy **`lib/`** deps to **CIRCUITPY/lib**.
 3. Copy all `.py` files to **CIRCUITPY** root.
@@ -64,7 +64,7 @@ A snappy 90s‑style Taito Arcade tilt‑to‑dodge Thunder Fighter game, simpli
 
 ---
 
-## 🎛️ Game Tuning (in `thunder.py`)
+## Game Tuning (in `thunder.py`)
 ```py
 SPAWN_INTERVAL = 1.0  # seconds (fixed spacing within a level)
 TILT_GAIN_X = 1.5     # X tilt → columns (L/R)
@@ -74,3 +74,7 @@ IDLE_TIMEOUT = 5.0    # seconds without movement → Game Over
 # difficulty speeds (rows/sec)
 {"EASY": 0.5, "MEDIUM": 0.9, "HARD": 1.4}
 ```
+
+## Enclosure Design
+The style is designed as a airplane yoke, screen centred in the middle, ON/OFF button on the back, USB-C and Rotary Encoder on the top. The invincible button is located on the right holder arm.
+
